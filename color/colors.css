@@ -1,0 +1,85 @@
+/* line 2, colors.scss */
+body {
+  background: #ffffff;
+  /*    #header {
+      background: #ffff02;
+  }*/
+  /*    .footer-wrapper {
+      background: #ffff05;
+  }*/
+}
+
+/* line 19, colors.scss */
+body {
+  color: #aaaa04;
+}
+/* line 21, colors.scss */
+body a {
+  color: #aaaa05;
+}
+/* line 24, colors.scss */
+body h1 {
+  color: #aaaa01;
+}
+/* line 26, colors.scss */
+body h1 a {
+  color: #aaaa01 !important;
+}
+/* line 30, colors.scss */
+body h2 {
+  color: #aaaa02;
+}
+/* line 32, colors.scss */
+body h2 a {
+  color: #aaaa02 !important;
+}
+/* line 37, colors.scss */
+body #header a {
+  color: #aaaa03;
+}
+/* line 41, colors.scss */
+body #header a:hover,
+body #header .active-trail {
+  color: #cccc01;
+}
+/* line 46, colors.scss */
+body #page #content {
+  color: #aaaa04;
+}
+/* line 48, colors.scss */
+body #page #content a {
+  color: #aaaa05;
+}
+/* line 51, colors.scss */
+body #page #content a:hover {
+  color: #cccc02 !important;
+}
+/* line 56, colors.scss */
+body #page #content #mini-panel-original .view-template-hot-cake .views-field-field-cake-name {
+  color: #000000;
+}
+/* line 62, colors.scss */
+body #page strong {
+  color: #aaaa01 !important;
+}
+/* line 66, colors.scss */
+body #page .views-field-created span {
+  color: #aaaa05;
+}
+/* line 73, colors.scss */
+body #page .view-contact-us .view-content .views-row span {
+  color: #aaaa01;
+}
+/* line 80, colors.scss */
+body .footer-wrapper {
+  color: #aaaa07;
+  border-color: #aaaa07;
+}
+/* line 83, colors.scss */
+body .footer-wrapper a {
+  color: #aaaa07;
+}
+/* line 86, colors.scss */
+body .footer-wrapper a:hover {
+  color: #cccc03;
+}

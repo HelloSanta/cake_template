@@ -1,0 +1,90 @@
+//background
+body {
+    background: #ffffff;
+    /*    #header {
+        background: #ffff02;
+    }*/
+    // #page {
+    //     background: #ffff03;
+    //     #content {
+    //         background: #ffff04;
+    //     }
+    // }
+    /*    .footer-wrapper {
+        background: #ffff05;
+    }*/
+}
+
+//color
+body {
+    color: #aaaa04;
+    a {
+        color: #aaaa05;
+    }
+    h1 {
+        color: #aaaa01;
+        a {
+            color: #aaaa01!important;
+        }
+    }
+    h2 {
+        color: #aaaa02;
+        a {
+            color: #aaaa02!important;
+        }
+    }
+    #header {
+        a {
+            color: #aaaa03;
+        }
+        a:hover,
+        .active-trail {
+            color: #cccc01;
+        }
+    }
+    #page {
+        #content {
+            color: #aaaa04;
+            a {
+                color: #aaaa05;
+            }
+            a:hover {
+                color: #cccc02!important;
+            }
+            #mini-panel-original {
+                .view-template-hot-cake {
+                    .views-field-field-cake-name {
+                        color: #000000;
+                    }
+                }
+            }
+        }
+        strong {
+            color: #aaaa01!important;
+        }
+        .views-field-created {
+            span {
+                color: #aaaa05;
+            }
+        }
+        .view-contact-us {
+            .view-content {
+                .views-row {
+                    span {
+                        color: #aaaa01;
+                    }
+                }
+            }
+        }
+    }
+    .footer-wrapper {
+        color: #aaaa07;
+        border-color: #aaaa07;
+        a {
+            color: #aaaa07;
+        }
+        a:hover {
+            color: #cccc03;
+        }
+    }
+}

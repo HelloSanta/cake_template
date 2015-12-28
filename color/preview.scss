@@ -1,0 +1,264 @@
+#preview-body {
+    width: 1000px;
+    li {
+        list-style: none;
+    }
+    .prepage {
+        #preview-header {
+            position: relative;
+            height: 120px;
+            #preview-logo {
+                left: 50% !important;
+                position: absolute;
+                transform: translate(-50%, 0%) !important;
+                width: 83px;
+                z-index: 200;
+            }
+            .region-header {
+                #block-imageblock-3 {
+                    position: absolute;
+                    left: 0;
+                }
+                #block-system-main-menu {
+                    left: 50% !important;
+                    position: absolute;
+                    transform: translate(-53%, 150%) !important;
+                    width: 75%;
+                    a {
+                        opacity: 0.7;
+                        &:hover {
+                            opacity: 1;
+                        }
+                    }
+                    .alignleft {
+                        float: left;
+                    }
+                    .alignright {
+                        float: right;
+                    }
+                    .last.leaf.alignright {
+                        &:after {
+                            display: none;
+                        }
+                    }
+                    .last.leaf.alignleft {
+                        &:after {
+                            display: none;
+                        }
+                    }
+                    li {}
+                    li:after {
+                        content: "●";
+                        display: inline-block;
+                        margin-left: 20px;
+                        right: -25px;
+                    }
+                }
+            }
+        }
+        #all_banner {
+            #block-views-slideshow-block {
+                .view-content {
+                    .flexslider {
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        #page {
+            #main {
+                #content {
+                    #block-panels-mini-original {
+                        .total_title {
+                            text-align: center;
+                            h2 {
+                                font-size: 25px;
+                            }
+                        }
+                    }
+                    #mini-panel-original {
+                        width: 70%;
+                        float: left;
+                        .view-content {
+                            .views-row-odd{
+                                width: 100%;
+                                float: left;
+                                margin: 0px;
+                                .views-field-field-image {
+                                    width: 30%;
+                                    float: left;
+                                    margin-right: 15px;
+                                    img {
+                                        width: 100%;
+                                        border-radius: 50%;
+                                    }
+                                }
+                                .views-field-title {
+                                    line-height: 40px;
+                                    span {
+                                        border: 1px solid;
+                                        font-size: 20px;
+                                        padding: 0 20px;
+                                    }
+                                }
+                                .views-field-field-cake-name {
+                                    font-size: 16px;
+                                }
+                                .views-field-field-link {
+                                    a {
+                                        font-size: 16px;
+                                        border-bottom: 1px solid;
+                                    }
+                                }
+                            }
+                            .views-row-even {
+                                width: 100%;
+                                float: left;
+                                margin: 0px;
+                                .views-field-field-image {
+                                    width: 30%;
+                                    float: right;
+                                    margin-right: 15px;
+                                    img {
+                                        width: 100%;
+                                        border-radius: 50%;
+                                    }
+                                }
+                                .views-field-title {
+                                    line-height: 40px;
+                                    span {
+                                        border: 1px solid;
+                                        font-size: 20px;
+                                        padding: 0 20px;
+                                    }
+                                }
+                                .views-field-field-cake-name {
+                                    font-size: 16px;
+                                }
+                                .views-field-field-link {
+                                    a {
+                                        font-size: 16px;
+                                        border-bottom: 1px solid;
+                                    }
+                                }
+                            }
+                          
+                        }
+                    }
+                    .pane-template-hot-shop {
+                        width: 30%;
+                        float: left;
+                        .view-content {
+                            ul {
+                                .views-field-field-shop-imgviews-field-field-shop-img {
+                                    img {
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    #block-views-3-node-news-block {
+                        .total_title {
+                            text-align: center;
+                            h2 {
+                                font-size: 25px;
+                            }
+                        }
+                        .view--3-node-news {
+                            .view-content {
+                                &:after {
+                                    content: "";
+                                    display: block;
+                                    height: 0px;
+                                    clear: both;
+                                }
+                                li {
+                                    width: 100%;
+                                    float: left;
+                                    .views-field-name {
+                                        a {
+                                            border-left: 1px solid;
+                                            padding: 5px;
+                                        }
+                                    }
+                                    .views-field-view {
+                                        ul {
+                                            margin: 0px;
+                                            li {
+                                                width: 50%;
+                                                float: left;
+                                                .views-field-field-image {
+                                                    width: 50%;
+                                                    float: left;
+                                                    margin-right: 10px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .view-footer {
+                                .more-link {
+                                    text-align: center;
+                                    margin: 10px 0;
+                                    a {
+                                        border: 1px solid;
+                                        padding: 5px 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .preview-footer-wrapper {
+            padding: 10px 20px;
+            #pre-footer {
+                #block-imageblock-1 {
+                    float: left;
+                    width: 20%;
+                    img {
+                        width: 100%;
+                    }
+                }
+                #block-menu-menu-footer-sitemap {
+                    float: left;
+                    width: 80%;
+                    ul {
+                        margin: 0px;
+                        text-align: center;
+                        span {
+                            font-size: 16px;
+                        }
+                        &:after {
+                            content: "";
+                            display: block;
+                            height: 0px;
+                            clear: both;
+                        }
+                        .menu__item {
+                            width: 30%;
+                            float: left;
+                            ul {
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+                #block-block-1 {
+                    #copyright {
+                        clear: both;
+                        p {
+                            margin: 0px;
+                            float: left;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
