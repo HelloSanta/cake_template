@@ -1,13 +1,13 @@
 /*
 Syntax error: Undefined mixin 'li-height-same'.
-        on line 536 of /var/www/cake/sites/all/themes/cake_template/sass/layouts/_responsive.scss, in `li-height-same'
-        from line 536 of /var/www/cake/sites/all/themes/cake_template/sass/layouts/_responsive.scss
+        on line 537 of /var/www/cake/sites/all/themes/cake_template/sass/layouts/_responsive.scss, in `li-height-same'
+        from line 537 of /var/www/cake/sites/all/themes/cake_template/sass/layouts/_responsive.scss
         from line 10 of /var/www/cake/sites/all/themes/cake_template/sass/layouts/_responsive-rtl.scss
         from line 13 of /var/www/cake/sites/all/themes/cake_template/sass/styles-rtl.scss
 
 Backtrace:
-/var/www/cake/sites/all/themes/cake_template/sass/layouts/_responsive.scss:536:in `li-height-same'
-/var/www/cake/sites/all/themes/cake_template/sass/layouts/_responsive.scss:536
+/var/www/cake/sites/all/themes/cake_template/sass/layouts/_responsive.scss:537:in `li-height-same'
+/var/www/cake/sites/all/themes/cake_template/sass/layouts/_responsive.scss:537
 /var/www/cake/sites/all/themes/cake_template/sass/layouts/_responsive-rtl.scss:10
 /var/www/cake/sites/all/themes/cake_template/sass/styles-rtl.scss:13
 /var/lib/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:253:in `visit_mixin'
@@ -164,4 +164,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'li-height-same'.\A         on line 536 of /var/www/cake/sites/all/themes/cake_template/sass/layouts/_responsive.scss, in `li-height-same'\A         from line 536 of /var/www/cake/sites/all/themes/cake_template/sass/layouts/_responsive.scss\A         from line 10 of /var/www/cake/sites/all/themes/cake_template/sass/layouts/_responsive-rtl.scss\A         from line 13 of /var/www/cake/sites/all/themes/cake_template/sass/styles-rtl.scss"; }
+  content: "Syntax error: Undefined mixin 'li-height-same'.\A         on line 537 of /var/www/cake/sites/all/themes/cake_template/sass/layouts/_responsive.scss, in `li-height-same'\A         from line 537 of /var/www/cake/sites/all/themes/cake_template/sass/layouts/_responsive.scss\A         from line 10 of /var/www/cake/sites/all/themes/cake_template/sass/layouts/_responsive-rtl.scss\A         from line 13 of /var/www/cake/sites/all/themes/cake_template/sass/styles-rtl.scss"; }

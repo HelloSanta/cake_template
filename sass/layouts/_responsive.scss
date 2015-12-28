@@ -443,6 +443,7 @@ $zen-column-count: 24;
                 .field-name-field-remittance {
                     @include zen-clear();
                     @include zen-grid-item(11, 1);
+                    float: none!important;
                 }
                 .field-name-field-shopping {
                     @include zen-clear(right);
