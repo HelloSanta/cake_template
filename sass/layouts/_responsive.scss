@@ -864,7 +864,7 @@ $zen-column-count: 24;
                     @include zen-grid-item(24, 1);
                 }
                 .field-name-field-discount {
-                    @include zen-clear();
+                    @include zen-clear(right);
                     @include zen-grid-item(24, 1);
                 }
                 .field-name-field-delivery {

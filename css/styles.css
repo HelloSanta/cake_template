@@ -1997,7 +1997,7 @@ table {
   }
   /* line 866, ../sass/layouts/_responsive.scss */
   #main #content .node-shopping .field-name-field-discount {
-    clear: left;
+    clear: right;
     float: left;
     width: 100%;
     margin-left: 0%;
@@ -3168,7 +3168,7 @@ tr.selected td {
 /* line 803, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1451273836');
+  background-image: url('../images/progress.gif?1451355652');
 }
 
 /**
