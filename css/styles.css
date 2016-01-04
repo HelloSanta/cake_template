@@ -3168,7 +3168,7 @@ tr.selected td {
 /* line 803, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1451355652');
+  background-image: url('../images/progress.gif?1451896712');
 }
 
 /**
@@ -3387,7 +3387,6 @@ body .view ul li {
 }
 /* line 157, ../sass/styles.scss */
 body #back-top {
-  position: absolute !important;
   bottom: 15px !important;
   right: 0px !important;
 }
